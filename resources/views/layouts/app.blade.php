@@ -13,7 +13,7 @@
         @include('partials.header')
     </header>
 
-    <main class="container py-4">
+    <main class="container-fluid py-4">
         @yield('content')
     </main>
 
