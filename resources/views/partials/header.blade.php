@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-     <a class="navbar-brand" href="#">
+     <a class="navbar-brand" href="/">
       <img  src="{{ Vite::asset('resources/images/logo.jpg') }}" alt="Logo" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       {{ config('app.name', 'Laravel') }}
     </a>
@@ -10,19 +10,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Sponsorizează un câine</a>
+          <a class="nav-link active" aria-current="page" href="/sponsor">Sponsorizează un câine</a>
         </li>
            <li class="nav-item">
-          <a class="nav-link" href="#">Vizitează adăpostul</a>
+          <a class="nav-link" href="/visit">Vizitează adăpostul</a>
         <li class="nav-item">
-          <a class="nav-link" href="#">Adoptă</a>
+          <a class="nav-link" href="/adopt">Adoptă</a>
          </li>
           <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Cum poți ajuta
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Donează</a></li>
+            <li><a class="dropdown-item" href="/donate">Donează</a></li>
             <li><a class="dropdown-item" href="#">Foster - găzduire temporară pentru câini</a></li>
             <li><a class="dropdown-item" href="#">Formular 230</a></li>
             <li><a class="dropdown-item" href="#">Proiectele noastre</a></li>

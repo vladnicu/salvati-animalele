@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="homepage-image-1-row d-flex justify-content-center position-relative d-inline-block">
-        <img src="{{ Vite::asset('resources/images/Poza homepage 1.png') }}" class="img-fluid" alt="...">
+        <img src="{{ Vite::asset('resources/images/Poza homepage 1.png') }}" class="img-fluid img-thumbnail" alt="...">
         <div class="position-absolute top-50 start-50 translate-middle text-white fw-bold">
             <h1>Salvați Animalele Baia Mare</h1>
             <p>Luptăm zilnic pentru a salva câini abandonați și pentru a le reda
@@ -20,7 +20,7 @@
     </div>
 
     <div class="row mt-4">
-        <div class="col d-flex justify-content-center"><img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="img-thumbnail" width="408" height="283"
+        <div class="col"><img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="img-thumbnail" width="408" height="283"
                 alt="..."></div>
         <div class="col-8">
             <h2 class="text-center mb-4">Bine ai venit la SalvatiAnimalele.ro!</h2>

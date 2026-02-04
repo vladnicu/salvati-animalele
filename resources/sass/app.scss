@@ -1,6 +1,8 @@
 @import "bootstrap/scss/bootstrap";
 
-.homepage-image-1-row {
+//poate sa downloadez fonturile?
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 .difference-row {
@@ -19,4 +21,18 @@
     height: 200px;
     background: white; /* culoarea fundalului exterior */
     border-radius: 0 0 50% 50%;
+}
+
+//Donate page
+.donate-header-row {
+    background-color: #dba50f;
+    color: white;
+    text-align: center;
+}
+
+.donate-subheader-row {
+    background-color: aqua;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
 }
