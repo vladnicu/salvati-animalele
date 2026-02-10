@@ -23,9 +23,8 @@
         @yield('content')
     </main>
 
-    <footer class="text-center py-3">
-        @yield('footer')
-    </footer>
+    
+    @include('partials.footer')
 
 </body>
 
