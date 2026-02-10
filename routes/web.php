@@ -22,6 +22,12 @@ Route::get('/donate', function () {
     return view('donate');
 });
 
+Route::get('/foster', function () {
+    return view('foster');
+});
+
+
+
 
 
 

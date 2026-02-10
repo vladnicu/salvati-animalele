@@ -23,7 +23,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/donate">Donează</a></li>
-            <li><a class="dropdown-item" href="#">Foster - găzduire temporară pentru câini</a></li>
+            <li><a class="dropdown-item" href="/foster">Foster - găzduire temporară pentru câini</a></li>
             <li><a class="dropdown-item" href="#">Formular 230</a></li>
             <li><a class="dropdown-item" href="#">Proiectele noastre</a></li>
             <li><a class="dropdown-item" href="#">Devino Voluntar</a></li>

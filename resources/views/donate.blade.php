@@ -12,7 +12,6 @@
             <p>Unii câini nu pot aștepta. Au nevoie de hrană, tratamente și îngrijire chiar acum.
                 Sprijinul tău înseamnă șanse reale: vindecare, siguranță și, în final, o familie.</p>
             <p>Activitatea noastră depinde de sprijinul comunității și de oameni care aleg să ajute.</p>
-
         </div>
     </div>
 
