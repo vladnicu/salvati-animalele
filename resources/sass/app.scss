@@ -1,18 +1,39 @@
 @import "bootstrap/scss/bootstrap";
 
+@import "variables";
+
 //poate sa downloadez fonturile?
 body {
     font-family: "Poppins", sans-serif;
 }
 
-.difference-row {
-    background-color: aqua;
+//welcome page
+
+.difference-text {
+    position: relative;
+    padding-top: 20px;
+}
+
+.difference-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; /* lungimea bordurii */
+    height: 6px; /* grosimea bordurii */
+    background-color: $primary-color; /* albastrul dorit */
+    border-radius: 4px; /* rotunjire ca în poză */
+}
+
+.difference-options {
+    background-color: $primary-color;
     height: 350px;
     position: relative;
     overflow: hidden;
 }
 
-.difference-row::before {
+.difference-options::before {
     content: "";
     position: absolute;
     top: -100px; /* cât de jos intră arcul */
@@ -31,8 +52,7 @@ body {
 }
 
 .donate-subheader-row {
-    background-color: aqua;
+    background-color: $primary-color;
     text-align: center;
     font-size: 1.2rem;
-    color: #6c757d;
 }

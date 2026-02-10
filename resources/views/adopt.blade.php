@@ -14,12 +14,19 @@
                 fie una reușită, atât pentru câine, cât și pentru familie.</p>
 
             <p>Adopția presupune:</p>
-            <ul>
-                <li>timp, răbdare și înțelegere</li>
-                <li>hrană, îngrijire medicală și mișcare zilnică</li>
-                <li>adaptare și iubire necondiționată</li>
-                <li>respectarea nevoilor câinelui</li>
-            </ul>
+            <div class="alert alert-primary" role="alert">
+                Timp, răbdare și înțelegere
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Hrană, îngrijire medicală și mișcare zilnică
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Adaptare și iubire necondiționată
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Respectarea nevoilor câinelui
+            </div>
+
             <p>Echipa noastră este alături de tine cu sfaturi și suport, pentru ca tranziția să fie cât mai ușoară.</p>
 
             <h3>Câinii care își așteaptă familia</h3>

@@ -5,26 +5,36 @@
         <div class="col">
             <h1 class="text-center mb-4">Viziteaza adapostul</h1>
             <h3>Adăpostul nostru este deschis vizitatorilor care doresc să cunoască câinii, să petreacă timp
-cu ei și să înțeleagă mai bine munca din spatele salvării lor.</h3>
-            <p>Adăpostul nostru poate fi vizitat doar cu programare în prealabil, pentru ca fiecare vizită să fie sigură, liniștită și benefică pentru câini.
-Poți veni singur sau în grup – cu prieteni, colegi, clase de elevi sau ca activitate educațională. Fiecare vizită este o lecție de empatie și grijă
-față de cei care nu se pot apăra singuri.
-Pentru câini, aceste vizite înseamnă mai mult decât joacă.
-În spațiul nostru verde, special amenajat, ei au șansa de a ieși din rutina adăpostului, de a primi atenție și de a se simți, măcar pentru o
-vreme, acasă. Uneori, câteva clipe de apropiere pot schimba complet starea unui câine.</p>
+                cu ei și să înțeleagă mai bine munca din spatele salvării lor.</h3>
+            <p>Adăpostul nostru poate fi vizitat doar cu programare în prealabil, pentru ca fiecare vizită să fie sigură,
+                liniștită și benefică pentru câini.
+                Poți veni singur sau în grup – cu prieteni, colegi, clase de elevi sau ca activitate educațională. Fiecare
+                vizită este o lecție de empatie și grijă
+                față de cei care nu se pot apăra singuri.
+                Pentru câini, aceste vizite înseamnă mai mult decât joacă.
+                În spațiul nostru verde, special amenajat, ei au șansa de a ieși din rutina adăpostului, de a primi atenție
+                și de a se simți, măcar pentru o
+                vreme, acasă. Uneori, câteva clipe de apropiere pot schimba complet starea unui câine.</p>
             <h3>Uneori, o simplă vizită poate fi cel mai frumos moment din ziua unui câine.</h3>
             <p>Vizitele joacă un rol important în viața câinilor din adăpost. Interacțiunea cu oameni
-diferiți îi ajută să se socializeze, să capete încredere și să se obișnuiască cu prezența
-umană. Câinii care sunt mai relaxați și mai deschiși au șanse mai mari de a fi
-observați, înțeleși și, în cele din urmă, adoptați.</p>
+                diferiți îi ajută să se socializeze, să capete încredere și să se obișnuiască cu prezența
+                umană. Câinii care sunt mai relaxați și mai deschiși au șanse mai mari de a fi
+                observați, înțeleși și, în cele din urmă, adoptați.</p>
 
             <p>Câteva reguli simple pentru vizite</p>
-            <ul>
-                <li>Accesul se face doar cu acordul personalului</li>
-                <li>respectăm indicațiile voluntarilor</li>
-                <li>nu hrănim câinii fără permisiune</li>
-                <li>copiii trebuie să fie însoțiți de adulți</li>
-            </ul>
+            <div class="alert alert-primary" role="alert">
+
+                Accesul se face doar cu acordul personalului
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Respectăm indicațiile voluntarilor
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Nu hrănim câinii fără permisiune
+            </div>
+            <div class="alert alert-primary" role="alert">
+                Copiii trebuie să fie însoțiți de adulți
+            </div>
         </div>
     </div>
 @endsection
