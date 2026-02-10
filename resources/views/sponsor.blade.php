@@ -4,8 +4,8 @@
     @include('partials.page-title', [
         'title' => 'Ajută un câine aflat în luptă pentru viață',
         'subtitle' => ' Unii câini au nevoie de mai mult decât timp.
-                    Au nevoie de tratament medical constant, îngrijire zilnică și de oameni care să nu
-                    renunțe la ei.',
+                            Au nevoie de tratament medical constant, îngrijire zilnică și de oameni care să nu
+                            renunțe la ei.',
     ])
 
     <div class="row">
@@ -39,34 +39,13 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Codrut</h5>
-                    <a href="#" class="btn btn-primary">Sponsorizeaza</a>
-                </div>
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                @for ($i = 0; $i < 6; $i++)
+                    @include('partials.dog-card')
+                @endfor
             </div>
         </div>
-        <div class="col d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Gusti</h5>
-                    <a href="#" class="btn btn-primary">Sponsorizeaza</a>
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="card" style="width: 18rem;">
-                <img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Zmeurica</h5>
-                    <a href="#" class="btn btn-primary">Sponsorizeaza</a>
-                </div>
-            </div>
-        </div>
-
     </div>
 @endsection
