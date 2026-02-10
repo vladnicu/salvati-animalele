@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.page-title', [
+        'title' => 'Ce înseamnă să adopți un câine?',
+        'subtitle' => 'Adopția este un angajament pe termen lung, bazat pe grijă și responsabilitate. Ne dorim ca fiecare adopție să
+                    fie una reușită, atât pentru câine, cât și pentru familie.',
+    ])
     <div class="row">
         <div class="col">
 
@@ -8,10 +13,6 @@
                 suflet care a cunoscut abandonul, frica sau singurătatea. Pentru un câine din adăpost, adopția
                 este începutul unei vieți noi — una în care este văzut, iubit și protejat.
                 Un câine adoptat nu uită niciodată mâna care l-a scos din adăpost. Oferă o loialitate sinceră, recunoștință
-                și o iubire care nu cere nimic în schimb, decât să rămâi lângă el.</p>
-            <h3>Ce înseamnă să adopți un câine?</h3>
-            <p>Adopția este un angajament pe termen lung, bazat pe grijă și responsabilitate. Ne dorim ca fiecare adopție să
-                fie una reușită, atât pentru câine, cât și pentru familie.</p>
 
             <p>Adopția presupune:</p>
             <div class="alert alert-primary" role="alert">

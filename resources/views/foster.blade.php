@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row">
-        <div class="col py-4">
-            <h1>Foster - găzduire temporară pentru câini</h1>
-        </div>
-    </div>
+
+@include('partials.page-title', [
+        'title' => 'Foster - găzduire temporară pentru câini',
+        'subtitle' => '',
+    ])
 
     <div class="row">
         <div class="col">

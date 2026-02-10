@@ -1,13 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.page-title', [
+        'title' => 'Ajută un câine aflat în luptă pentru viață',
+        'subtitle' => ' Unii câini au nevoie de mai mult decât timp.
+                    Au nevoie de tratament medical constant, îngrijire zilnică și de oameni care să nu
+                    renunțe la ei.',
+    ])
+
     <div class="row">
         <div class="col">
-            <h2 class="text-center mb-4">Ajută un câine aflat în luptă pentru viață</h2>
-            <h4 class="text-center mb-4">Unii câini au nevoie de mai mult decât timp.
-                Au nevoie de tratament medical constant, îngrijire zilnică și de oameni care să nu
-                renunțe la ei.</h4>
-
             <p>Această pagină este dedicată câinilor cu probleme grave de sănătate sau foarte bătrâni
                 — câini care, fără sprijin constant, nu ar avea nicio șansă. Poate nu vor fi niciodată
                 adoptați, dar merită o viață trăită cu demnitate, fără durere și suferință.</p>
@@ -22,13 +24,13 @@
             <div class="alert alert-primary" role="alert">
                 investigații și tratamente medicale
             </div>
-             <div class="alert alert-primary" role="alert">
-     medicamente și intervenții necesare
+            <div class="alert alert-primary" role="alert">
+                medicamente și intervenții necesare
             </div>
-             <div class="alert alert-primary" role="alert">
+            <div class="alert alert-primary" role="alert">
                 îngrijire zilnică și monitorizare
             </div>
-             <div class="alert alert-primary" role="alert">
+            <div class="alert alert-primary" role="alert">
                 hrană specială și condiții de confort pentru câinii bătrâni
             </div>
             <p>A deveni înger păzitor înseamnă să fii sprijinul unui câine invizibil pentru mulți și să îi schimbi

@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+    @include('partials.page-title', [
+        'title' => 'Viziteaza adapostul',
+        'subtitle' => 'Adăpostul nostru este deschis vizitatorilor care doresc să cunoască câinii, să petreacă timp
+                    cu ei și să înțeleagă mai bine munca din spatele salvării lor.',
+    ])
     <div class="row">
         <div class="col">
-            <h1 class="text-center mb-4">Viziteaza adapostul</h1>
-            <h3>Adăpostul nostru este deschis vizitatorilor care doresc să cunoască câinii, să petreacă timp
-                cu ei și să înțeleagă mai bine munca din spatele salvării lor.</h3>
             <p>Adăpostul nostru poate fi vizitat doar cu programare în prealabil, pentru ca fiecare vizită să fie sigură,
                 liniștită și benefică pentru câini.
                 Poți veni singur sau în grup – cu prieteni, colegi, clase de elevi sau ca activitate educațională. Fiecare
