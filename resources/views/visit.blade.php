@@ -4,8 +4,9 @@
     @include('partials.page-title', [
         'title' => 'Viziteaza adapostul',
         'subtitle' => 'Adăpostul nostru este deschis vizitatorilor care doresc să cunoască câinii, să petreacă timp
-                    cu ei și să înțeleagă mai bine munca din spatele salvării lor.',
+                                    cu ei și să înțeleagă mai bine munca din spatele salvării lor.',
     ])
+    
     <div class="row">
         <div class="col">
             <p>Adăpostul nostru poate fi vizitat doar cu programare în prealabil, pentru ca fiecare vizită să fie sigură,
@@ -17,15 +18,27 @@
                 În spațiul nostru verde, special amenajat, ei au șansa de a ieși din rutina adăpostului, de a primi atenție
                 și de a se simți, măcar pentru o
                 vreme, acasă. Uneori, câteva clipe de apropiere pot schimba complet starea unui câine.</p>
-            <h3>Uneori, o simplă vizită poate fi cel mai frumos moment din ziua unui câine.</h3>
-            <p>Vizitele joacă un rol important în viața câinilor din adăpost. Interacțiunea cu oameni
+        </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+                Uneori, o simplă vizită poate fi cel mai frumos moment din ziua unui
+                <span class="text-body-secondary">câine.</span>
+            </h2>
+            <p class="lead">
+                Vizitele joacă un rol important în viața câinilor din adăpost. Interacțiunea cu oameni
                 diferiți îi ajută să se socializeze, să capete încredere și să se obișnuiască cu prezența
                 umană. Câinii care sunt mai relaxați și mai deschiși au șanse mai mari de a fi
-                observați, înțeleși și, în cele din urmă, adoptați.</p>
-
-            <p>Câteva reguli simple pentru vizite</p>
+                observați, înțeleși și, în cele din urmă, adoptați.
+            </p>
+        </div>
+        <div class="col-md-5">
+            <p>Câteva reguli simple pentru vizite:</p>
             <div class="alert alert-primary" role="alert">
-
                 Accesul se face doar cu acordul personalului
             </div>
             <div class="alert alert-primary" role="alert">
@@ -39,4 +52,6 @@
             </div>
         </div>
     </div>
+
+    <hr class="featurette-divider" />
 @endsection
