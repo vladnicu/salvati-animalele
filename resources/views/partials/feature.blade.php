@@ -8,6 +8,6 @@
         <p>
             {{ $subtitle}}
         </p>
-        <a href="#" class="btn btn-primary">Detalii</a>
+        <a href="{{ '/' . $url }}" class="btn btn-primary">Detalii</a>
     </div>
 </div>

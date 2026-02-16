@@ -18,18 +18,21 @@
                 'title' => 'Foster',
                 'subtitle' => 'Găzduire temporară pentru câini',
                 'icon' => 'house-heart',
+                'url' => 'foster',
             ])
 
             @include('partials.feature', [
                 'title' => 'Sponsorizează',
                 'subtitle' => 'Sponsorizează un câine și oferă-i o șansă la o viață mai bună',
                 'icon' => 'cash',
+                'url' => 'sponsor',
             ])
 
             @include('partials.feature', [
                 'title' => 'Doneaza',
                 'subtitle' => 'Donează și schimbă o viață',
                 'icon' => 'piggy-bank',
+                'url' => 'donate',
             ])
         </div>
     </div>
@@ -70,18 +73,21 @@
                 'title' => 'Donează',
                 'subtitle' => 'Donează  și schimbă o viață',
                 'icon' => 'cash',
+                'url' => 'donate',
             ])
 
             @include('partials.feature', [
                 'title' => 'Voluntariat',
                 'subtitle' => 'Implică-te ca voluntar',
                 'icon' => 'person-raised-hand',
+                'url' => '',
             ])
 
             @include('partials.feature', [
                 'title' => 'Sponsorizează',
                 'subtitle' => 'Sponsorizează un câine și oferă-i o șansă la o viață mai bună',
                 'icon' => 'piggy-bank',
+                'url' => 'sponsor',
             ])
         </div>
     </div>
