@@ -11,7 +11,7 @@
     </div>
 
     <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Hanging icons</h2>
+        {{-- <h2 class="pb-2 border-bottom">Hanging icons</h2> --}}
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
             @include('partials.feature', [
@@ -19,7 +19,7 @@
                 'subtitle' => 'Găzduire temporară pentru câini',
                 'icon' => 'house-heart',
             ])
-            
+
             @include('partials.feature', [
                 'title' => 'Sponsorizează',
                 'subtitle' => 'Sponsorizează un câine și oferă-i o șansă la o viață mai bună',
@@ -61,7 +61,7 @@
     </div>
 
     <hr class="featurette-divider" />
-    
+
     <div class="container px-4 py-5" id="hanging-icons">
         <h2 class="pb-2 border-bottom">Cum ne poți ajuta? Împreună putem face diferența</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -71,7 +71,7 @@
                 'subtitle' => 'Donează  și schimbă o viață',
                 'icon' => 'cash',
             ])
-            
+
             @include('partials.feature', [
                 'title' => 'Voluntariat',
                 'subtitle' => 'Implică-te ca voluntar',
@@ -86,4 +86,31 @@
         </div>
     </div>
 
+    <hr class="featurette-divider" />
+
+    <div class="row mb-4">
+        <div class="col d-flex  justify-content-center"><img src="{{ Vite::asset('resources/images/fam_dogs.jpg') }}"
+                class="img-fluid img-thumbnail" alt="fam dogs" width="100" height="100"></div>
+        <div class="col d-flex justify-content-center">
+            <img src="{{ Vite::asset('resources/images/aramis.jpg') }}" class="img-fluid img-thumbnail" alt="aramis"
+                width="100" height="100">
+        </div>
+        <div class="col d-flex justify-content-center">
+            <img src="{{ Vite::asset('resources/images/herz.png') }}" class="img-fluid img-thumbnail" alt="herz"
+                width="100" height="100">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col d-flex justify-content-center"><img src="{{ Vite::asset('resources/images/pet_crew.jpg') }}"
+                class="img-fluid img-thumbnail" alt="pet crew" width="100" height="100"></div>
+        <div class="col d-flex justify-content-center">
+            <img src="{{ Vite::asset('resources/images/pets_rescue.png') }}" class="img-fluid img-thumbnail"
+                alt="pet rescue" width="100" height="100">
+        </div>
+        <div class="col d-flex justify-content-center">
+            <img src="{{ Vite::asset('resources/images/sepultura.png') }}" class="img-fluid img-thumbnail" alt="sepultura"
+                width="100" height="100">
+        </div>
+    </div>
 @endsection
