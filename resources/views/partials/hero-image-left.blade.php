@@ -1,9 +1,16 @@
 <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 
     <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">
             {{ $title }}
         </h1>
+        @isset($listItems)
+            @foreach ($listItems as $item)
+                <div class="alert alert-primary" role="alert">
+                    {{ $item }}
+                </div>
+            @endforeach
+        @endisset
         <p class="lead">
             {{ $text }}
         </p>

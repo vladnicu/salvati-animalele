@@ -5,7 +5,7 @@
             height="500" loading="lazy" />
     </div>
     <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">
             {{ $title }}
         </h1>
         <p class="lead">
