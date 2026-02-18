@@ -26,6 +26,11 @@ Route::get('/foster', function () {
     return view('foster');
 });
 
+Route::get('/about', function () {
+    return view('about');
+});
+
+
 
 
 

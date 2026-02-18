@@ -38,32 +38,24 @@
     </div>
 
     <hr class="featurette-divider" />
-    <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
-                Bine ai venit la
-                <span class="text-body-secondary">SalvatiAnimalele.ro!</span>
-            </h2>
-            <p class="lead">
-                Credem că animalele nu sunt invizibile și că fiecare dintre noi poate face o
+
+    @include('partials.hero-image-left', [
+        'title' => 'Bine ai venit la SalvatiAnimalele.ro!',
+        'text' => 'Credem că animalele nu sunt invizibile și că fiecare dintre noi poate face o
                 diferență. Luptăm zilnic pentru a atrage atenția asupra suferinței câinilor fără
                 stăpân, pentru a încuraja adopția și pentru a oferi o a doua șansă celor care
-                au cunoscut doar abandonul și durerea.
-            </p>
-            <p class="lead">
-                Ne dorim o comunitate mai responsabilă și un viitor în care niciun animal să
-                nu mai fie lăsat în urmă.
-            </p>
-            <button type="button" class="btn btn-primary">Află mai multe despre noi...</button>
-        </div>
-        <div class="col-md-5 order-md-1">
-            <img src="{{ Vite::asset('resources/images/Poza homepage 2.jpg') }}" class="featurette-image img-fluid mx-auto"
-                width="500" height="500" alt="Bine ai venit">
+                au cunoscut doar abandonul și durerea.',
+        'image' => 'Poza homepage 2.jpg',
+    ])
 
-        </div>
-    </div>
+    @include('partials.hero-image-center', [
+        'title' => 'Află mai multe despre noi...',
+        'text' => 'Ne dorim o comunitate mai responsabilă și un viitor în care niciun animal să
+                nu mai fie lăsat în urmă.',
+        'image' => 'cosmo2.jpg',
+    ])
 
-    <hr class="featurette-divider" />
+    {{-- <hr class="featurette-divider" /> --}}
 
     <div class="container px-4 py-5" id="hanging-icons">
         <h2 class="pb-2 border-bottom">Cum ne poți ajuta? Împreună putem face diferența</h2>
