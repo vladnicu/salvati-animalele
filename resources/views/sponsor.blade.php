@@ -71,9 +71,11 @@
     <div class="album py-5 bg-body-tertiary">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                @for ($i = 0; $i < 6; $i++)
-                    @include('partials.dog-card')
-                @endfor
+                @include('partials.dog-card', ['image' => 'Costica1.jpg', 'name' => 'Costica'])
+
+                @include('partials.dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo'])
+
+                @include('partials.dog-card', ['image' => 'Milla1.jpg', 'name' => 'Milla'])
             </div>
         </div>
     </div>
