@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="homepage-image-1-row d-flex justify-content-center position-relative d-inline-block">
-        <img src="{{ Vite::asset('resources/images/pozahomepage1.png') }}" class="img-fluid img-thumbnail" alt="...">
+        {{-- <img src="{{ Vite::asset('resources/images/pozahomepage1.png') }}" class="img-fluid img-thumbnail" alt="..."> --}}
         <div class="position-absolute top-50 start-50 translate-middle text-white fw-bold">
             <h1>Salvați Animalele Baia Mare</h1>
             <p>Luptăm zilnic pentru a salva câini abandonați și pentru a le reda
