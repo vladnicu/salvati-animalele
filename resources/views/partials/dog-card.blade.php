@@ -7,7 +7,7 @@
              </p>
              <div class="d-flex justify-content-between align-items-center">
                  <button type="button" class="btn btn-sm btn-outline-secondary">
-                     Sponsorizeaza
+                     {{ $buttonText }}
                  </button>
 
                  <small class="text-body-secondary">9 ani</small>
