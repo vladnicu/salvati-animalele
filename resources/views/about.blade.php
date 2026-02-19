@@ -13,7 +13,7 @@
         viață și demnitate al animalelor fără stăpân.
                                     Din aprilie 2015 gestionăm adăpostul public din Baia Mare, unde fiecare suflet ajuns în grija noastră
                                     primește mai mult decât hrană și tratament – primește o șansă.',
-        'image' => 'Despre noi1.jpg',
+        'image' => 'Desprenoi1.jpg',
     ])
 
     <hr class="featurette-divider" />
@@ -42,7 +42,7 @@
                                     În adăpostul nostru nu vorbim despre „cazuri”. Vorbim despre suflete. Despre bătrânei abandonați care încă
                                     mai speră. Despre pui care nu au cunoscut niciodată siguranța unui cămin. Despre câini și pisici care
                                     încă vor să iubească, chiar dacă au fost răniți',
-        'image' => 'Despre noi6.jpg',
+        'image' => 'Desprenoi6.jpg',
     ])
 
     @include('partials.hero-image-right', [
@@ -50,7 +50,7 @@
         'text' => 'Ea este omul care, zi de zi, își dedică timpul și energia celor care nu se pot apăra singuri. Nu pleacă din adăpost când programul se termină. Pentru
                 ea, nu există „program”. Există doar suflete care au nevoie.
                 Pentru Monica, salvarea animalelor nu este un proiect. Este o promisiune făcută fiecărui suflet care încă mai speră.',
-        'image' => 'Monica Bohoni.jpg',
+        'image' => 'MonicaBohoni.jpg',
     ])
 
     @include('partials.hero-image-center', [
@@ -59,6 +59,6 @@
                                     Peste 7000 de animale sterilizate, pentru a preveni suferința generațiilor viitoare.
                                     Mii de adopții reușite, în țară și în străinătate.
                                     Campanii educaționale și evenimente caritabile, inclusiv concerte dedicate susținerii adăpostului.',
-        'image' => 'Despre noi5.jpg',
+        'image' => 'Desprenoi5.jpg',
     ])
 @endsection
