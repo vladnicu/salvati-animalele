@@ -14,23 +14,17 @@
         'image' => 'visit2.jpg',
     ])  
 
+    @include('partials.hero-image-left', [
+        'title' => 'Asociația Salvați Animalele Baia Mare,',
+        'text' => 'Din anul 2015, adăpostul este gestionat de Asociația Salvați Animalele Baia Mare, care, pe lângă activitatea zilnică de îngrijire și management, atrage constant donatori și finanțatori pentru a îmbunătăți condițiile de trai ale câinilor, pentru a susține tratamentele medicale, programele de sterilizare și eforturile de creștere a șanselor de adopție.',
+        'image' => 'visit3.jpg',
+    ])
 
     @include('partials.hero-image-center', [
-        'title' => 'Adăpostul public pentru câini fără stăpân din Baia Mare',
-        'text' => 'Adapostul funcționează sub autoritatea administrației publice locale, ca parte a serviciului municipal de gestionare a câinilor fără deținător, în conformitate cu legislația națională privind protecția animalelor și gestionarea câinilor fără stăpân, precum și cu reglementările locale aprobate de Consiliul Local Baia Mare.',
+        'title' => 'Strategia de gestionare a populației canine',
+        'text' => 'În acest adăpost nu se practică eutanasia ca metodă de control al populației canine. Strategia locală este orientată către adăpostire, îngrijire, sterilizare și adopție, în concordanță cu poziția administrației municipale, care a susținut constant că eutanasia în masă nu reprezintă o soluție durabilă. Eutanasia poate fi aplicată exclusiv în cazuri medicale grave, conform legislației sanitar-veterinare, atunci când starea animalului o impune și este confirmată de medicul veterinar.',
         'image' => 'visit1.jpg',
     ])
-
-   
-    @include('partials.hero-image-left', [
-        'title' => 'Pentru câini, aceste vizite înseamnă mai mult decât joacă.',
-        'text' => 'În spațiul nostru verde, special amenajat, ei au șansa de a ieși din rutina adăpostului, de a primi atenție
-                și de a se simți, măcar pentru o
-                vreme, acasă. Uneori, câteva clipe de apropiere pot schimba complet starea unui câine.',
-        'image' => 'Cosmo2.jpg',
-    ])
-
-    <hr class="featurette-divider" />
 
     @include('partials.featurette-list', [
         'titleprimary' => 'Uneori, o simplă vizită poate fi cel mai frumos moment din ziua unui',
@@ -48,5 +42,4 @@
         ],
     ])
 
-    <hr class="featurette-divider" />
 @endsection
