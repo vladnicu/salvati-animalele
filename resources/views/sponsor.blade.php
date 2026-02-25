@@ -24,7 +24,7 @@
                     Nu este o adopție și nu presupune să îl iei acasă.
                     Este un gest profund de grijă, prin care devii omul lui — cel care face posibil tratamentul,
                     îngrijirea zilnică, confortul și siguranța de care are nevoie.',
-        'image' => 'Cosmo2.jpg',
+        'image' => 'cosmo2.jpg',
     ])
 
     <hr class="featurette-divider" />
@@ -53,7 +53,7 @@
 
                 @include('partials.dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo', 'buttonText' => 'Sponsorizează'])
 
-                @include('partials.dog-card', ['image' => 'Milla1.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
+                @include('partials.dog-card', ['image' => 'milla1.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
             </div>
         </div>
     </div>
