@@ -94,7 +94,7 @@
                 width="100" height="100">
         </div>
         <div class="col d-flex justify-content-center">
-            <img src="/images/herz.png'" class="img-fluid img-thumbnail" alt="herz"
+            <img src="/images/herz.png" class="img-fluid img-thumbnail" alt="herz"
                 width="100" height="100">
         </div>
     </div>
