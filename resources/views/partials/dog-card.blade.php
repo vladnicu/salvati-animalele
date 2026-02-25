@@ -1,6 +1,6 @@
  <div class="col">
      <div class="card shadow-sm">
-         <img src="{{ Vite::asset('resources/images/sponsor/' . $image) }}" class="card-img-top" alt="...">
+         <img src="/images/sponsor/{{ $image }}" class="card-img-top" alt="...">
          <div class="card-body">
              <p class="card-text">
                  {{$name}}

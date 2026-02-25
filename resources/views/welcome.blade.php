@@ -87,27 +87,27 @@
     <hr class="featurette-divider" />
 
     <div class="row mb-4">
-        <div class="col d-flex  justify-content-center"><img src="{{ Vite::asset('resources/images/fam_dogs.jpg') }}"
+        <div class="col d-flex  justify-content-center"><img src="/images/fam_dogs.jpg"
                 class="img-fluid img-thumbnail" alt="fam dogs" width="100" height="100"></div>
         <div class="col d-flex justify-content-center">
-            <img src="{{ Vite::asset('resources/images/aramis.jpg') }}" class="img-fluid img-thumbnail" alt="aramis"
+            <img src="/images/aramis.jpg" class="img-fluid img-thumbnail" alt="aramis"
                 width="100" height="100">
         </div>
         <div class="col d-flex justify-content-center">
-            <img src="{{ Vite::asset('resources/images/herz.png') }}" class="img-fluid img-thumbnail" alt="herz"
+            <img src="/images/herz.png'" class="img-fluid img-thumbnail" alt="herz"
                 width="100" height="100">
         </div>
     </div>
 
     <div class="row">
-        <div class="col d-flex justify-content-center"><img src="{{ Vite::asset('resources/images/pet_crew.jpg') }}"
+        <div class="col d-flex justify-content-center"><img src="/images/pet_crew.jpg"
                 class="img-fluid img-thumbnail" alt="pet crew" width="100" height="100"></div>
         <div class="col d-flex justify-content-center">
-            <img src="{{ Vite::asset('resources/images/pets_rescue.png') }}" class="img-fluid img-thumbnail"
+            <img src="/images/pets_rescue.png" class="img-fluid img-thumbnail"
                 alt="pet rescue" width="100" height="100">
         </div>
         <div class="col d-flex justify-content-center">
-            <img src="{{ Vite::asset('resources/images/sepultura.png') }}" class="img-fluid img-thumbnail" alt="sepultura"
+            <img src="/images/sepultura.png" class="img-fluid img-thumbnail" alt="sepultura"
                 width="100" height="100">
         </div>
     </div>

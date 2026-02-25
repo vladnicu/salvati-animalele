@@ -11,7 +11,7 @@
       </div>
       <div class="overflow-hidden" style="max-height: 30vh">
           <div class="container px-5">
-              <img src="{{ Vite::asset('resources/images/' . $image) }}" class="img-fluid border rounded-3 shadow-lg mb-4"
+              <img src="/images/{{ $image }}" class="img-fluid border rounded-3 shadow-lg mb-4"
                   alt="Example image" width="700" height="500" loading="lazy" />
           </div>
       </div>
