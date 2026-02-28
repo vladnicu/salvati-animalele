@@ -14,7 +14,7 @@
         {{-- <h2 class="pb-2 border-bottom">Hanging icons</h2> --}}
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
-            @include('partials.feature', [
+            @include('partials.feature', [  
                 'title' => 'Foster',
                 'subtitle' => 'Găzduire temporară pentru câini',
                 'icon' => 'house-heart',
