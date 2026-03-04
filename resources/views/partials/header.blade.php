@@ -30,7 +30,7 @@
                         <li><a class="dropdown-item" target="_blank"
                                 href="https://redirectioneaza.ro/salvati-animalele/?fbclid=IwdGRjcAQGY4xleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEeeaWxqh5N21wuxBsMrjmG3i1TqdFPMV0-U6tzVxGK6amGeD4SjSrmFKwAiL0_aem_KIJJ6TG94XtRmRf7QEAxmw">Formular
                                 230</a></li>
-                        <li><a class="dropdown-item" href="#">Proiectele noastre</a></li>
+                        <li><a class="dropdown-item" href="/campaigns/sterilization">Campanii de Sterilizare!</a></li>
                         <li><a class="dropdown-item" href="#">Devino Voluntar</a></li>
                     </ul>
                 </li>
