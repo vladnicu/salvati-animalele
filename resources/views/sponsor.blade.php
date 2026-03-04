@@ -53,7 +53,7 @@
 
                 @include('partials.dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo', 'buttonText' => 'Sponsorizează'])
 
-                @include('partials.dog-card', ['image' => 'milla1.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
+                @include('partials.dog-card', ['image' => 'milla2.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
             </div>
         </div>
     </div>
