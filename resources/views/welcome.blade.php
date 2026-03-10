@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="homepage-image-1-row d-flex justify-content-center position-relative d-inline-block">
-        <img src="/images/pozahomepage1.jpg"  class="img-fluid img-thumbnail" alt="...">
+        <img src="/images/pozahomepage1.png"  class="img-fluid img-thumbnail" alt="...">
         <div class="position-absolute top-50 start-50 translate-middle text-white fw-bold">
-            <h1>Salvați Animalele Baia Mare</h1>
+            {{-- <h1>Salvați Animalele Baia Mare</h1>
             <p>Luptăm zilnic pentru a salva câini abandonați și pentru a le reda
-                demnitatea, speranța și o familie.</p>
+                demnitatea, speranța și o familie.</p> --}}
         </div>
     </div>
 
@@ -15,24 +15,24 @@
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
             @include('partials.feature', [  
+                'title' => 'Despre noi',
+                'subtitle' => 'Cine suntem și cum ajutăm',
+                'icon' => 'house-heart',
+                'url' => 'about',
+            ])
+
+            @include('partials.feature', [
+                'title' => 'Adoptă',
+                'subtitle' => 'Oferă unui câine o familie',
+                'icon' => 'house-heart-fill',
+                'url' => 'adopt',
+            ])
+
+            @include('partials.feature', [
                 'title' => 'Foster',
                 'subtitle' => 'Găzduire temporară pentru câini',
-                'icon' => 'house-heart',
+                'icon' => 'shield-fill-check',
                 'url' => 'foster',
-            ])
-
-            @include('partials.feature', [
-                'title' => 'Sponsorizează',
-                'subtitle' => 'Sponsorizează un câine și oferă-i o șansă la o viață mai bună',
-                'icon' => 'cash',
-                'url' => 'sponsor',
-            ])
-
-            @include('partials.feature', [
-                'title' => 'Doneaza',
-                'subtitle' => 'Donează și schimbă o viață',
-                'icon' => 'piggy-bank',
-                'url' => 'donate',
             ])
         </div>
     </div>
@@ -52,7 +52,7 @@
         'title' => 'Află mai multe despre noi...',
         'text' => 'Ne dorim o comunitate mai responsabilă și un viitor în care niciun animal să
                 nu mai fie lăsat în urmă.',
-        'image' => 'cosmo2.jpg',
+        'image' => 'pozahomepage3.png',
     ])
 
     {{-- <hr class="featurette-divider" /> --}}
