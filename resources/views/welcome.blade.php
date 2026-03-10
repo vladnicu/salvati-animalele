@@ -53,33 +53,34 @@
         'text' => 'Ne dorim o comunitate mai responsabilă și un viitor în care niciun animal să
                 nu mai fie lăsat în urmă.',
         'image' => 'pozahomepage3.png',
+        'url' => 'about',
     ])
 
     {{-- <hr class="featurette-divider" /> --}}
 
     <div class="container px-4 py-5" id="hanging-icons">
-        <h2 class="pb-2 border-bottom">Cum ne poți ajuta? Împreună putem face diferența</h2>
+        <h1 class="pb-2">Cum ne poți ajuta? Împreună putem face diferența</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
             @include('partials.feature', [
                 'title' => 'Donează',
-                'subtitle' => 'Donează  și schimbă o viață',
+                'subtitle' => 'Fiecare donație salvează o viață',
                 'icon' => 'cash',
                 'url' => 'donate',
             ])
 
             @include('partials.feature', [
-                'title' => 'Voluntariat',
-                'subtitle' => 'Implică-te ca voluntar',
+                'title' => 'Salvează',
+                'subtitle' => 'Ajută direct un câine din adăpost',
                 'icon' => 'person-raised-hand',
-                'url' => '',
+                'url' => 'sponsor',
             ])
 
             @include('partials.feature', [
-                'title' => 'Sponsorizează',
-                'subtitle' => 'Sponsorizează un câine și oferă-i o șansă la o viață mai bună',
+                'title' => 'Voluntariat',
+                'subtitle' => 'Dăruiește timp și oferă speranță',
                 'icon' => 'piggy-bank',
-                'url' => 'sponsor',
+                'url' => '',
             ])
         </div>
     </div>
