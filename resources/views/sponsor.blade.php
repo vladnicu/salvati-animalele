@@ -49,11 +49,11 @@
     <div class="album py-5 bg-body-tertiary">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                @include('partials.dog-card', ['image' => 'Costica1.jpg', 'name' => 'Costica', 'buttonText' => 'Sponsorizează'])
+                @include('partials.adopt-dog-card', ['image' => 'Costica1.jpg', 'name' => 'Costica', 'buttonText' => 'Sponsorizează'])
 
-                @include('partials.dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo', 'buttonText' => 'Sponsorizează'])
+                @include('partials.adopt-dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo', 'buttonText' => 'Sponsorizează'])
 
-                @include('partials.dog-card', ['image' => 'milla2.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
+                @include('partials.adopt-dog-card', ['image' => 'milla2.jpg', 'name' => 'Milla', 'buttonText' => 'Sponsorizează'])
             </div>
         </div>
     </div>
