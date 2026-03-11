@@ -14,7 +14,7 @@
                     așteptat prea mult după o șansă și pentru care ne dorim, mai mult ca oricând, să găsim un cămin cât mai
                     repede. Aceștia sunt doar o parte dintre câinii aflați în grija noastră. Dacă nu găsești aici câinele potrivit pentru tine, te încurajăm să ne contactezi — vom face tot posibilul să
                     te ajutăm să găsești companionul potrivit.',
-        'image' => 'Costica4.jpg',
+        'image' => 'costica4.jpg',
     ])
 
     <hr class="featurette-divider" />
@@ -40,12 +40,14 @@
     <div class="album py-5 bg-body-tertiary">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                @include('partials.adopt-dog-card', ['image' => 'Costica1.jpg', 'name' => 'Costica', 'buttonText' => 'Adoptă'])
+                @include('partials.adopt-dog-card', ['image' => 'costica1.jpg', 'name' => 'Costica'])
 
-                @include('partials.adopt-dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo', 'buttonText' => 'Adoptă'])
+                @include('partials.adopt-dog-card', ['image' => 'cosmo1.jpg', 'name' => 'Cosmo'])
 
-                @include('partials.adopt-dog-card', ['image' => 'Milla1.jpg', 'name' => 'Milla', 'buttonText' => 'Adoptă'])
+                @include('partials.adopt-dog-card', ['image' => 'milla1.jpg', 'name' => 'Milla'])
             </div>
         </div>
     </div>
+
+    
 @endsection
