@@ -55,7 +55,8 @@
         'text' => 'Ne dorim o comunitate mai responsabilă și un viitor în care niciun animal să
                             nu mai fie lăsat în urmă.',
         'image' => 'pozahomepage3.png',
-        'url' => 'about',
+        'url' => '/about',
+         'blank' => false,
     ])
 
     {{-- <hr class="featurette-divider" /> --}}

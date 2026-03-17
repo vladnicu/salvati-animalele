@@ -98,3 +98,9 @@ body {
 //     width: 1.5rem;
 //     height: 100vh;
 // }
+
+.accordion-button {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+}

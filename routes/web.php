@@ -30,6 +30,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/230', function () {
+    return view('230');
+});
+
+
 Route::get('/campaigns/sterilization', function () {
     return view('campaigns.sterilization');
 });

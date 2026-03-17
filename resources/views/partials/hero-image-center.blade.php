@@ -8,7 +8,8 @@
           </p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
             @isset($url)
-               <a href="{{ '/' . $url }}" class="btn btn-primary">Detalii</a>
+               <a  {{ $blank ? 'target="_blank" rel="noopener noreferrer"' : '' }}
+               href="{{ $url }}" class="btn btn-primary">Detalii</a>
                @endisset
           </div>
       </div>
