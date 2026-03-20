@@ -34,6 +34,10 @@ Route::get('/230', function () {
     return view('230');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 
 Route::get('/campaigns/sterilization', function () {
     return view('campaigns.sterilization');
