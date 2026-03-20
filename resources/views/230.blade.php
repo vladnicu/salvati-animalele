@@ -54,7 +54,7 @@
         <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
             <div class="col d-flex flex-column align-items-start gap-2">
                 <h1 class="display-6 fw-bold text-body-emphasis">
-                    Descarcă Formularul 230
+                    Descarcă Formularul 230 
                 </h1>
                 <p class="text-body-secondary">
                     Trimite-l completat către Asociația Salvați Animalele și ne ocupăm noi de depunere.

@@ -89,7 +89,7 @@
     </div>
 
     <hr class="featurette-divider" />
-
+    
     <h1 class="pb-2">Le mulțumim companiilor și organizațiilor ne susțin!</h2>
 
     <div class="row mb-4">
